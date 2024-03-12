@@ -1,0 +1,5 @@
+annotated-types==0.6.0
+confluent-kafka==2.3.0
+python-dotenv==1.0.1
+types-confluent-kafka==1.2.0
+typing_extensions==4.10.0
