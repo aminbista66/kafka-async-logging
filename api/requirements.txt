@@ -1,0 +1,2 @@
+confluent-kafka==2.3.0
+types-confluent-kafka==1.2.0
