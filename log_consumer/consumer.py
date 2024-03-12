@@ -55,7 +55,7 @@ class LogConsumer:
         else:
             logs: list = json.loads(response)  # type: ignore
             logs.append(data)
-            self.redis.set("logs", json.dumps(logs).encode())
+            self.redis.set(name="logs", value=json.dumps(logs).encode(), ex=60*5)
 
     def run(self):
         try:
