@@ -1,23 +1,13 @@
-from pymongo import MongoClient
-from redis import Redis
-import os
-from dotenv import find_dotenv, load_dotenv
+from fastapi import FastAPI
+from config import load_env_callback
+from connectors import shutdown_db_conn
+from scheduler import run_scheduler
 
-load_dotenv(find_dotenv())
-
-mongo_client = MongoClient("mongodb://root:example@localhost:27017/")
-
-database = mongo_client["log_db"]
-collection = database["logs"]
-
-
-redis = Redis(
-    host=os.environ.get("REDIS_HOST", "localhost"),
-    port=int(os.environ.get("REDIS_PORT", 6379)),
-    decode_responses=True,
-    db=0,
+app = FastAPI(
+    on_startup=[load_env_callback, run_scheduler], on_shutdown=[shutdown_db_conn]
 )
 
 
-print(redis.get('logs'))
-
+@app.get("/")
+def root():
+    return {"message": "Scheduler running..."}

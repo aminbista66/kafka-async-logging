@@ -19,6 +19,7 @@ services:
     environment:
       - MONGO_INITDB_ROOT_USERNAME=root  # Set username for MongoDB (optional, adjust if needed)
       - MONGO_INITDB_ROOT_PASSWORD=example  # Set password for MongoDB (optional, adjust if needed)
+      - MONGO_INITDB_DATABASE=log_db
     ports:
       - 27017:27017  # Map container port 27017 (default MongoDB port) to host port 27017
     volumes:

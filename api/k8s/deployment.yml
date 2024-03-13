@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: async-logger-api-server
+  labels:
+    app: logger-api-server
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: logger-api-server
+  template:
+    metadata:
+      labels:
+        app: logger-api-server
+    spec:
+      containers:
+      - name: api-server
+        image: aminbista/async-logger-api-server:latest
+        ports:
+        - containerPort: 8000
+        resources: {}
+        envFrom:
+          - configMapRef:
+              name: api-service-configmap
+        
