@@ -714,3 +714,361 @@
 3/13/2024, 3:05:57 AM | INFO | CommandsJsonProvider:redisgraph | Successfully updated redisgraph commands | {"stack":[]}
 3/13/2024, 3:05:57 AM | INFO | CommandsJsonProvider:redisgraph | Successfully updated redisgraph commands | {"stack":[]}
 3/13/2024, 3:37:17 AM | INFO |  | Signal SIGTERM received. Shutting down... | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | NestFactory | Starting Nest application... | {"stack":[]}
+3/13/2024, 5:08:14 AM | ERROR | KeytarEncryptionStrategy | Failed to initialize keytar module | {"stack":[{"message":"Error loading shared library libsecret-1.so.0: No such file or directory (needed by /usr/src/app/redisinsight/api/node_modules/keytar/build/Release/keytar.node)"}]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | AppModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | LocalDatabaseModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | TypeOrmModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | CoreModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | SshModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | AuthModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | FeatureModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | CloudModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | StaticsManagementModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | NestjsFormDataModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | CloudTaskModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | RecommendationModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | CommandsModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | PluginModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | DiscoveryModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | RouterModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | CloudDatabaseModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | SessionModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | ServeStaticModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | ServeStaticModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | ServeStaticModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | ServeStaticModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | ServeStaticModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | ServeStaticModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | ServeStaticModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | ServeStaticModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | ServeStaticModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | EventEmitterModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | CloudSessionModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | CloudAuthModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | CloudUserModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | TypeOrmCoreModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | TypeOrmModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | SettingsModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | NotificationModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | EncryptionModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | AnalyticsModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | FeatureModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | CustomTutorialModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | ServerModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | RedisModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | AutodiscoveryModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | CertificateModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | CloudCapiKeyModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | RedisSentinelModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | DatabaseImportModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | CloudSubscriptionModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | DatabaseRecommendationModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | RedisEnterpriseModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | CliModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | CloudAutodiscoveryModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | SlowLogModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | ClusterMonitorModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | TriggeredFunctionsModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | CloudJobModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | ProfilerModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | DatabaseModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | WorkbenchModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | DatabaseAnalysisModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | PubSubModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | BrowserModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | InstanceLoader | BulkActionsModule dependencies initialized | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | WebSocketsController | CloudJobGateway subscribed to the "cloud:job:monitor" message | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | WebSocketsController | ProfilerGateway subscribed to the "monitor" message | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | WebSocketsController | ProfilerGateway subscribed to the "pause" message | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | WebSocketsController | ProfilerGateway subscribed to the "flushLogs" message | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | WebSocketsController | PubSubGateway subscribed to the "subscribe" message | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | WebSocketsController | PubSubGateway subscribed to the "unsubscribe" message | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | WebSocketsController | BulkActionsGateway subscribed to the "create" message | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | WebSocketsController | BulkActionsGateway subscribed to the "get" message | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | WebSocketsController | BulkActionsGateway subscribed to the "abort" message | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RoutesResolver | AnalyticsController {/api/analytics}: | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/analytics/send-event, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/analytics/send-page, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RoutesResolver | SettingsController {/api/settings}: | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/settings, GET} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/settings/agreements/spec, GET} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/settings, PATCH} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RoutesResolver | CaCertificateController {/api/certificates/ca}: | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/certificates/ca, GET} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/certificates/ca/:id, DELETE} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RoutesResolver | ClientCertificateController {/api/certificates/client}: | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/certificates/client, GET} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/certificates/client/:id, DELETE} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RoutesResolver | DatabaseController {/api/databases}: | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases, GET} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:id, GET} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:id, PATCH} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/clone/:id, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/test, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/test/:id, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:id, DELETE} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases, DELETE} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:id/connect, GET} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/export, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RoutesResolver | DatabaseInfoController {/api/databases}: | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:id/info, GET} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:id/overview, GET} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:id/db/:index, GET} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RoutesResolver | DatabaseRecommendationController {/api/databases/:dbInstance/recommendations}: | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/recommendations, GET} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/recommendations/read, PATCH} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/recommendations/:id, PATCH} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/recommendations, DELETE} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RoutesResolver | FeatureController {/api/features}: | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/features, GET} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/features/sync, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RoutesResolver | NotificationController {/api/notifications}: | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/notifications, GET} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/notifications/read, PATCH} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RoutesResolver | ServerController {/api/info}: | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/info, GET} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/info/cli-unsupported-commands, GET} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/info/cli-blocking-commands, GET} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RoutesResolver | HealthController {/api/health}: | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/health, GET} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RoutesResolver | ClusterController {/api/redis-enterprise/cluster}: | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/redis-enterprise/cluster/get-databases, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/redis-enterprise/cluster/databases, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RoutesResolver | CloudAuthController {/api/cloud}: | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/cloud/oauth/callback, GET} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/cloud/logout, GET} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RoutesResolver | CloudUserController {/api/cloud/me}: | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/cloud/me, GET} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/cloud/me/accounts/:id/current, PUT} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RoutesResolver | CloudAutodiscoveryController {/api/cloud/autodiscovery}: | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/cloud/autodiscovery/account, GET} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/cloud/autodiscovery/subscriptions, GET} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/cloud/autodiscovery/get-databases, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/cloud/autodiscovery/databases, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RoutesResolver | MeCloudAutodiscoveryController {/api/cloud/me/autodiscovery}: | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/cloud/me/autodiscovery/account, GET} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/cloud/me/autodiscovery/subscriptions, GET} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/cloud/me/autodiscovery/get-databases, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/cloud/me/autodiscovery/databases, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RoutesResolver | CloudJobController {/api/cloud/me/jobs}: | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/cloud/me/jobs, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/cloud/me/jobs, GET} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/cloud/me/jobs/:id, GET} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RoutesResolver | CloudCapiKeyController {/api/cloud/me/capi-keys}: | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/cloud/me/capi-keys, GET} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/cloud/me/capi-keys/:id, DELETE} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/cloud/me/capi-keys, DELETE} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RoutesResolver | CloudSubscriptionController {/api/cloud/me/subscription}: | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/cloud/me/subscription/plans, GET} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RoutesResolver | RedisSentinelController {/api/redis-sentinel}: | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/redis-sentinel/get-databases, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/redis-sentinel/databases, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RoutesResolver | KeysController {/api/databases/:dbInstance/keys}: | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/keys, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/keys/get-metadata, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/keys/get-info, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/keys, DELETE} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/keys/name, PATCH} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/keys/ttl, PATCH} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RoutesResolver | StringController {/api/databases/:dbInstance/string}: | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/string, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/string/get-value, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/string/download-value, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/string, PUT} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RoutesResolver | ListController {/api/databases/:dbInstance/list}: | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/list, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/list, PUT} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/list/get-elements, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/list, PATCH} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/list/get-elements/:index, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/list/elements, DELETE} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RoutesResolver | SetController {/api/databases/:dbInstance/set}: | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/set, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/set/get-members, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/set, PUT} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/set/members, DELETE} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RoutesResolver | ZSetController {/api/databases/:dbInstance/zSet}: | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/zSet, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/zSet/get-members, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/zSet, PUT} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/zSet, PATCH} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/zSet/members, DELETE} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/zSet/search, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RoutesResolver | RejsonRlController {/api/databases/:dbInstance/rejson-rl}: | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/rejson-rl/get, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/rejson-rl, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/rejson-rl/set, PATCH} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/rejson-rl/arrappend, PATCH} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/rejson-rl, DELETE} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RoutesResolver | RedisearchController {/api/databases/:dbInstance/redisearch}: | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/redisearch, GET} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/redisearch, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/redisearch/search, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RoutesResolver | HashController {/api/databases/:dbInstance/hash}: | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/hash, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/hash/get-fields, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/hash, PUT} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/hash/fields, DELETE} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RoutesResolver | StreamController {/api/databases/:dbInstance/streams}: | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/streams, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/streams/entries, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/streams/entries/get, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/streams/entries, DELETE} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RoutesResolver | ConsumerGroupController {/api/databases/:dbInstance/streams/consumer-groups}: | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/streams/consumer-groups/get, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/streams/consumer-groups, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/streams/consumer-groups, PATCH} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/streams/consumer-groups, DELETE} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RoutesResolver | ConsumerController {/api/databases/:dbInstance/streams/consumer-groups/consumers}: | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/streams/consumer-groups/consumers/get, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/streams/consumer-groups/consumers, DELETE} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/streams/consumer-groups/consumers/pending-messages/get, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/streams/consumer-groups/consumers/pending-messages/ack, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/streams/consumer-groups/consumers/pending-messages/claim, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RoutesResolver | BrowserHistoryController {/api/databases/:dbInstance/history}: | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/history, GET} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/history/:id, DELETE} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/history, DELETE} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RoutesResolver | CliController {/api/databases/:dbInstance/cli}: | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/cli, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/cli/:uuid/send-command, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/cli/:uuid/send-cluster-command, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/cli/:uuid, DELETE} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/cli/:uuid, PATCH} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RoutesResolver | CommandsController {/api/commands}: | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/commands, GET} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RoutesResolver | WorkbenchController {/api/databases/:dbInstance/workbench}: | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/workbench/command-executions, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/workbench/command-executions, GET} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/workbench/command-executions/:id, GET} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/workbench/command-executions/:id, DELETE} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/workbench/command-executions, DELETE} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RoutesResolver | PluginsController {/api/databases/:dbInstance/plugins}: | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/plugins/command-executions, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/plugins/commands, GET} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/plugins/:visualizationId/command-executions/:id/state, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/plugins/:visualizationId/command-executions/:id/state, GET} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RoutesResolver | PluginController {/api/plugins}: | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/plugins, GET} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RoutesResolver | ProfilerController {/api/profiler}: | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/profiler/logs/:id, GET} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RoutesResolver | PubSubController {/api/databases/:dbInstance/pub-sub}: | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/pub-sub/messages, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RoutesResolver | SlowLogController {/api/databases/:dbInstance/slow-logs}: | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/slow-logs, GET} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/slow-logs, DELETE} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/slow-logs/config, GET} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/slow-logs/config, PATCH} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RoutesResolver | BulkImportController {/api/databases/:dbInstance/bulk-actions}: | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/bulk-actions/import, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/bulk-actions/import/tutorial-data, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RoutesResolver | ClusterMonitorController {/api/databases/:dbInstance/cluster-details}: | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/cluster-details, GET} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RoutesResolver | CustomTutorialController {/api/custom-tutorials}: | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/custom-tutorials, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/custom-tutorials/manifest, GET} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/custom-tutorials/:id, DELETE} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RoutesResolver | DatabaseAnalysisController {/api/databases/:dbInstance/analysis}: | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/analysis, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/analysis/:id, GET} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/analysis, GET} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/analysis/:id, PATCH} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RoutesResolver | DatabaseImportController {/api/databases}: | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/import, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RoutesResolver | TriggeredFunctionsController {/api/databases/:dbInstance/triggered-functions}: | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/triggered-functions/libraries, GET} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/triggered-functions/get-library, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/triggered-functions/functions, GET} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/triggered-functions/library, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/triggered-functions/library/replace, POST} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | RouterExplorer | Mapped {/api/databases/:dbInstance/triggered-functions/library, DELETE} route | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | SettingsService | Getting application settings. | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | SettingsService | Succeed to get application settings. | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | DatabaseService | Getting databases list | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:main | Trying to update main commands... | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:redisearch | Trying to update redisearch commands... | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:redisjson | Trying to update redisjson commands... | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:redistimeseries | Trying to update redistimeseries commands... | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:redisai | Trying to update redisai commands... | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:redisgraph | Trying to update redisgraph commands... | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:redisgears | Trying to update redisgears commands... | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:redisbloom | Trying to update redisbloom commands... | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:triggers_and_functions | Trying to update triggers_and_functions commands... | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:main | Trying to update main commands... | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:redisearch | Trying to update redisearch commands... | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:redisjson | Trying to update redisjson commands... | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:redistimeseries | Trying to update redistimeseries commands... | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:redisai | Trying to update redisai commands... | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:redisgraph | Trying to update redisgraph commands... | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:redisgears | Trying to update redisgears commands... | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:redisbloom | Trying to update redisbloom commands... | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:triggers_and_functions | Trying to update triggers_and_functions commands... | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:main | Trying to update main commands... | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:redisearch | Trying to update redisearch commands... | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:redisjson | Trying to update redisjson commands... | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:redistimeseries | Trying to update redistimeseries commands... | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:redisai | Trying to update redisai commands... | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:redisgraph | Trying to update redisgraph commands... | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:redisgears | Trying to update redisgears commands... | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:redisbloom | Trying to update redisbloom commands... | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:triggers_and_functions | Trying to update triggers_and_functions commands... | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | TutorialsProvider | Checking for updates... | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | ContentProvider | Checking for updates... | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | FeaturesConfigService | Trying to sync features config... | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | LocalFeaturesConfigRepository | Getting features config entity | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | ServerService | Checking server info. | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | FeaturesConfigService | Fetching remote config... | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | FeaturesConfigService | Fetching remote config... | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | ServerService | First application launch. | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | ServerService | Application started. | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | LocalFeaturesConfigRepository | Getting features config entity | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | NestApplication | Nest application successfully started | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | bootstrap | Server is running on http(s)://0.0.0.0:5540 | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:redisai | Successfully updated redisai commands | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:redisjson | Successfully updated redisjson commands | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:redisai | Successfully updated redisai commands | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:redisgraph | Successfully updated redisgraph commands | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:redisbloom | Successfully updated redisbloom commands | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:redisearch | Successfully updated redisearch commands | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:redisbloom | Successfully updated redisbloom commands | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:redisgraph | Successfully updated redisgraph commands | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:triggers_and_functions | Successfully updated triggers_and_functions commands | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:triggers_and_functions | Successfully updated triggers_and_functions commands | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:redisjson | Successfully updated redisjson commands | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:redisgears | Successfully updated redisgears commands | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:redisgraph | Successfully updated redisgraph commands | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:redisgears | Successfully updated redisgears commands | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:triggers_and_functions | Successfully updated triggers_and_functions commands | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:redisgears | Successfully updated redisgears commands | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:redisjson | Successfully updated redisjson commands | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:redisai | Successfully updated redisai commands | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:redisbloom | Successfully updated redisbloom commands | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:redisearch | Successfully updated redisearch commands | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:redistimeseries | Successfully updated redistimeseries commands | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:redistimeseries | Successfully updated redistimeseries commands | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:redistimeseries | Successfully updated redistimeseries commands | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | FeaturesConfigService | Successfully updated stored remote config | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | FeaturesConfigService | Recalculating features flags | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:main | Successfully updated main commands | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:main | Successfully updated main commands | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | LocalFeaturesConfigRepository | Getting features config entity | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | LocalFeaturesConfigRepository | Getting features config entity | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | LocalFeaturesConfigRepository | Getting features config entity | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | LocalFeaturesConfigRepository | Getting features config entity | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | LocalFeaturesConfigRepository | Getting features config entity | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:redisearch | Successfully updated redisearch commands | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | SettingsService | Getting application settings. | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | SettingsService | Getting application settings. | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | SettingsService | Getting application settings. | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | SettingsService | Succeed to get application settings. | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | SettingsService | Succeed to get application settings. | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | SettingsService | Succeed to get application settings. | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | FeaturesConfigService | Features flags recalculated. Updated: 4 deleted: 0 | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | FeaturesConfigService | Getting features list | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | LocalFeaturesConfigRepository | Getting features config entity | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | SettingsService | Getting application settings. | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | SettingsService | Succeed to get application settings. | {"stack":[]}
+3/13/2024, 5:08:14 AM | INFO | CommandsJsonProvider:main | Successfully updated main commands | {"stack":[]}
+3/13/2024, 5:36:37 AM | INFO |  | Signal SIGTERM received. Shutting down... | {"stack":[]}

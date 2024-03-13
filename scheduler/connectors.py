@@ -4,12 +4,7 @@ import os
 
 
 def get_mongo_client():
-    mongo_client = MongoClient(
-        "mongodb://root:example@localhost:27017/log_db?authSource=admin"
-    )
-
-    database = mongo_client["log_db"]
-    db_collection = database["logs"]
+    mongo_client = MongoClient(os.environ.get("MONGO_URI"))
     return mongo_client
 
 

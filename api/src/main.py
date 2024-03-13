@@ -1,15 +1,18 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Request
 from datetime import datetime
 from .config import startup_callback
 from .producer import LogProducer
+from .connector import get_mongo_client
 
-app = FastAPI(on_startup=[startup_callback])
 producer = LogProducer()
+app = FastAPI(on_startup=[startup_callback])
 
 
 @app.get(path="/get-logs")
-def get_logs():
-    return [{"logs": "Logs"}]
+def get_logs(request: Request):
+    client = get_mongo_client()
+    logs = client.get_database("log_db").get_collection("logs").find()
+    return [{**log, "_id": str(log["_id"])} for log in logs]
 
 
 @app.get(path="/action/{action_code}/")
