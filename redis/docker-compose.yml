@@ -1,25 +1,13 @@
 version: '3'
 
 services:
-  redis:
-    image: redis:latest
-    ports:
-      - "6379:6379"
-
-  redisinsight:
-    image: redislabs/redisinsight:latest
-    ports:
-      - "8001:8001"
-    volumes:
-      - ./redis-data:/data  # Persistent storage for Redis data
-
   mongodb:
     image: mongo:latest  # Use the official MongoDB image (latest tag)
     restart: unless-stopped  # Restart the container automatically unless manually stopped
     environment:
       - MONGO_INITDB_ROOT_USERNAME=root  # Set username for MongoDB (optional, adjust if needed)
       - MONGO_INITDB_ROOT_PASSWORD=example  # Set password for MongoDB (optional, adjust if needed)
-      - MONGO_INITDB_DATABASE=log_db
+      - MONGO_INITDB_DATABASE=file_db
     ports:
       - 27017:27017  # Map container port 27017 (default MongoDB port) to host port 27017
     volumes:

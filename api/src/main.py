@@ -20,3 +20,7 @@ def action(action_code: str):
     action_payload = {"action": action_code, "created_at": str(datetime.now())}
     producer.emit_event(action_payload)
     return {"data": action_payload}
+
+@app.get("/ping")
+def ping():
+    return "pong"
